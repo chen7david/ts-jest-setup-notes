@@ -3,6 +3,9 @@
 ## Introduction
 This setup repository was created as a cheatsheet for typescript projects that use Jest for testing. While testing is important, we do not need to test libraries like Express, Koa, and others. We can assume that they have undergone extensive testing. However, writing tests for the code we wrote ourselves is critical. Routes, middleware, controllers, services, and models are examples of code that could be included. The chart below depicts what we typically have to test.
 
+![Database ER diagram (crow's foot) (1)](https://user-images.githubusercontent.com/19669287/183560564-fa8753d4-4b2f-4ef4-9c1f-fc8bd26c17c3.svg)
+
+
 ## Getting Started
 - describe(string, callback):
 - test(string, callback): 
