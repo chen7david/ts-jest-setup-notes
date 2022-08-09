@@ -9,8 +9,8 @@ This setup repository was created as a cheatsheet for typescript projects that u
 ## Getting Started
 - describe(string, callback):
 - test(string, callback): 
-- expect(arg:\<T>):
-- toBe(arg:\<T>):
+- expect<code>\<T></code>(arg:<code>T</code>):
+- toBe<code>\<T></code>(arg:<code>T</code>):
 ### toBe
 ```js
 import { sum, difference } from "../utils/math.utils";
