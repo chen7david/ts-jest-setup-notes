@@ -5,6 +5,6 @@
     "rootDir": "src",
     "esModuleInterop": true
   },
-  "include": ["src", "__test__", "tests"], // which files to compile
+  "include": ["src", "__test__", "tests", "tests"], // which files to compile
   "exclude": ["node_modules"] // which files to skip
 }

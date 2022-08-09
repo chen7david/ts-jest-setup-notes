@@ -1,4 +1,4 @@
-import { sum, difference } from "../utils/math.utils";
+import { sum, difference } from "../src/utils/math.utils";
 
 describe('testing math module', () => {
     test('sum', () => {
