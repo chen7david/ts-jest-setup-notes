@@ -67,4 +67,18 @@ module.exports = {
 },
 ```
 
-4. Now you can run <code>$ npm run test</code>, and that will run all files that include <code>.test.</code> in the file name.
+3. Add the following lines to your <code>tsconfig.json</code> file:
+```json
+{
+  "compilerOptions": {
+    "types": ["node", "jest"],
+    "outDir": "dist",
+    "rootDir": "src",
+    "esModuleInterop": true
+  },
+  "include": ["src", "__test__", "tests", "tests"], // which files to compile
+  "exclude": ["node_modules"] // which files to skip
+}
+```
+
+5. Now you can run <code>$ npm run test</code>, and that will run all files that include <code>.test.</code> in the file name, for example <code>some_file_name.test.ts</code>.
