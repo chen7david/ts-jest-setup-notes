@@ -44,7 +44,7 @@ npm i -D typescript ts-node jest ts-jest @types/node @types/jest
 
 2. Create jest-config
 ```bash
-npm ts-jest config:init
+npx ts-jest config:init
 ```
 This creates a <code>jest.config.js</code> file in your root directory:
 ```js
